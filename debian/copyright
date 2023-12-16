@@ -1,0 +1,558 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: img-gpu-powervr
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     staging/include/GLES3/gl3ext.h
+           staging/include/drv/CL/cl_ext.h
+           staging/include/drv/CL/cl_img_external_semaphore.h
+           staging/include/drv/CL/cl_img_external_semaphore_sync_fd.h
+           staging/include/drv/CL/cl_img_safety_mechanisms.h
+           staging/include/drv/CL/cl_img_semaphore.h
+           staging/include/drv/EGL/eglext.h
+           staging/include/drv/GLES/glext.h
+           staging/include/drv/GLES3/glimgext.h
+           staging/usr/lib/glesv2.pc
+           staging/usr/lib/libGLESv1_CM_PVR_MESA.so
+           staging/usr/lib/libPVRScopeServices.so
+           staging/usr/lib/libglslcompiler.so
+           staging/usr/lib/libpvr_dri_support.so
+           staging/usr/lib/libsrv_um.so
+           staging/usr/lib/libsutu_display.so
+           target/lib/firmware/rgx.fw.36.29.52.182
+           target/lib/firmware/rgx.sh.36.29.52.182
+           target/usr/lib/libGLESv1_CM_PVR_MESA.so
+           target/usr/lib/libPVRScopeServices.so
+           target/usr/lib/libglslcompiler.so
+           target/usr/lib/libpvr_dri_support.so
+           target/usr/lib/libsrv_um.so
+           target/usr/lib/libsutu_display.so
+           target/usr/local/bin/eglconfigs
+           target/usr/local/bin/egldmabuf
+           target/usr/local/bin/eglinfo
+           target/usr/local/bin/geglinfo
+           target/usr/local/bin/ggles1test1
+           target/usr/local/bin/ggles2test1
+           target/usr/local/bin/ggles3driimage
+           target/usr/local/bin/ggles3eglimage
+           target/usr/local/bin/ggles3test1
+           target/usr/local/bin/gles1image_external
+           target/usr/local/bin/gles1test1
+           target/usr/local/bin/gles2test1
+           target/usr/local/bin/gles3_render_to_image
+           target/usr/local/bin/gles3image_external
+           target/usr/local/bin/gles3test1
+           target/usr/local/bin/hwperfbin2jsont
+           target/usr/local/bin/pvr_memory_test
+           target/usr/local/bin/pvrdebug
+           target/usr/local/bin/pvrhtb2txt
+           target/usr/local/bin/pvrhtbd
+           target/usr/local/bin/pvrhwperf
+           target/usr/local/bin/pvrlogsplit
+           target/usr/local/bin/pvrsrvctl
+           target/usr/local/bin/pvrtld
+           target/usr/local/bin/rgx_blit_test
+           target/usr/local/bin/rgx_compute_test
+           target/usr/local/bin/rgx_kicksync_test
+           target/usr/local/bin/rgx_triangle_test
+           target/usr/local/bin/rgx_twiddling_test
+           target/usr/local/bin/rogue2d_fbctest
+           target/usr/local/bin/rogue2d_unittest
+           target/usr/local/bin/weglinfo
+           target/usr/local/bin/wgles1image_external
+           target/usr/local/bin/wgles1test1
+           target/usr/local/bin/wgles2test1
+           target/usr/local/bin/wgles3test1
+           target/usr/local/share/pvr/shaders/gles3_IExt_full_screen_quad_fragshader.txt
+           target/usr/local/share/pvr/shaders/gles3_IExt_full_screen_quad_fragshader_yuv.txt
+           target/usr/local/share/pvr/shaders/gles3_IExt_full_screen_quad_vertshader.txt
+           target/usr/local/share/pvr/shaders/gles3_RTI_full_screen_quad_fragshader.txt
+           target/usr/local/share/pvr/shaders/gles3_RTI_full_screen_quad_fragshader_yuv.txt
+           target/usr/local/share/pvr/shaders/gles3_RTI_full_screen_quad_vertshader.txt
+           target/usr/local/share/pvr/shaders/gles3_RTI_plain_triangle_fragshader.txt
+           target/usr/local/share/pvr/shaders/gles3_RTI_plain_triangle_fragshader_yuv.txt
+           target/usr/local/share/pvr/shaders/gles3_RTI_textured_triangle_fragshader.txt
+           target/usr/local/share/pvr/shaders/gles3_RTI_textured_triangle_fragshader_yuv.txt
+           target/usr/local/share/pvr/shaders/gles3_RTI_triangle_vertshader.txt
+           target/usr/local/share/pvr/shaders/gles3test1_fragshaderA.txt
+           target/usr/local/share/pvr/shaders/gles3test1_fragshaderB.txt
+           target/usr/local/share/pvr/shaders/gles3test1_vertshader.txt
+           target/usr/local/share/pvr/shaders/glsltest1_fragshaderA.txt
+           target/usr/local/share/pvr/shaders/glsltest1_fragshaderB.txt
+           target/usr/local/share/pvr/shaders/glsltest1_vertshader.txt
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     staging/include/CL/cl.h
+           staging/include/CL/cl_egl.h
+           staging/include/CL/cl_ext.h
+           staging/include/CL/cl_gl.h
+           staging/include/CL/cl_icd.h
+           staging/include/CL/cl_platform.h
+           staging/include/CL/cl_version.h
+           staging/include/CL/opencl.h
+           staging/include/vulkan/vk_icd.h
+Copyright: 2008-2021 The Khronos Group Inc.
+           2015-2016 LunarG, Inc.
+           2015-2016 Valve Corporation
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     staging/include/GLES/gl.h
+           staging/include/GLES/glext.h
+           staging/include/GLES2/gl2.h
+           staging/include/GLES2/gl2ext.h
+           staging/include/GLES3/gl3.h
+Copyright: 2013-2018 The Khronos Group Inc.
+License:   __UNKNOWN__
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and/or associated documentation files (the
+ "Materials"), to deal in the Materials without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Materials, and to
+ permit persons to whom the Materials are furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Materials.
+ .
+ THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
+ .
+ This header is generated from the Khronos OpenGL / OpenGL ES XML
+ API Registry. The current version of the Registry, generator scripts
+ used to make the header, and the header can be found at
+ https://github.com/KhronosGroup/OpenGL-Registry
+
+Files:     staging/include/vulkan/vulkan_core.h
+           staging/include/vulkan/vulkan_wayland.h
+           staging/include/vulkan/vulkan_xcb.h
+           staging/include/vulkan/vulkan_xlib.h
+Copyright: 2015-2022 The Khronos Group Inc.
+License:   __UNKNOWN__
+ SPDX-License-Identifier: Apache-2.0
+ .
+ This header is generated from the Khronos Vulkan XML API Registry.
+
+Files:     staging/include/spirv/extinst.glsl.std.450.grammar.json
+           staging/include/spirv/extinst.opencl.std.100.grammar.json
+           staging/include/spirv/spirv.core.grammar.json
+Copyright: 2014-2020 The Khronos Group Inc.", ",
+License:   __UNKNOWN__
+ Permission is hereby granted, free of charge, to any person obtaining a copy",
+ of this software and/or associated documentation files (the \"Materials\"),",
+ to deal in the Materials without restriction, including without limitation",
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,",
+ and/or sell copies of the Materials, and to permit persons to whom the",
+ Materials are furnished to do so, subject to the following conditions:",
+ ",
+ The above copyright notice and this permission notice shall be included in",
+ all copies or substantial portions of the Materials.",
+ ",
+ MODIFICATIONS TO THIS FILE MAY MEAN IT NO LONGER ACCURATELY REFLECTS KHRONOS",
+ STANDARDS. THE UNMODIFIED, NORMATIVE VERSIONS OF KHRONOS SPECIFICATIONS AND",
+ HEADER INFORMATION ARE LOCATED AT https://www.khronos.org/registry/ ",
+ ",
+ THE MATERIALS ARE PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS",
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,",
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL",
+ THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER",
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING",
+ FROM,OUT OF OR IN CONNECTION WITH THE MATERIALS OR THE USE OR OTHER DEALINGS",
+ IN THE MATERIALS."
+
+Files:     staging/include/vulkan/vk_platform.h
+           staging/include/vulkan/vulkan.h
+Copyright: 2014-2022 The Khronos Group Inc.
+License:   __UNKNOWN__
+ SPDX-License-Identifier: Apache-2.0
+
+Files:     staging/include/spirv/GLSL.std.450.h
+           staging/include/spirv/OpenCL.std.h
+Copyright: 2014-2019 The Khronos Group Inc.
+License:   __UNKNOWN__
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and/or associated documentation files (the "Materials"),
+ to deal in the Materials without restriction, including without limitation
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Materials, and to permit persons to whom the
+ Materials are furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Materials.
+ .
+ MODIFICATIONS TO THIS FILE MAY MEAN IT NO LONGER ACCURATELY REFLECTS KHRONOS
+ STANDARDS. THE UNMODIFIED, NORMATIVE VERSIONS OF KHRONOS SPECIFICATIONS AND
+ HEADER INFORMATION ARE LOCATED AT https://www.khronos.org/registry/
+ .
+ THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ FROM,OUT OF OR IN CONNECTION WITH THE MATERIALS OR THE USE OR OTHER DEALINGS
+ IN THE MATERIALS.
+
+Files:     target/usr/local/bin/pvrlogdump
+Copyright: __NO_COPYRIGHT__ in: target/usr/local/bin/pvrlogdump
+License:   Expat
+ The contents of this file are subject to the MIT license as set out below.
+ .
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+
+Files:     staging/include/CL/cl_half.h
+Copyright: 2019-2020 The Khronos Group Inc.
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ This is a header-only utility library that provides OpenCL host code with
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     staging/include/vulkan/vk_layer.h
+Copyright: 2015-2017 LunarG, Inc.
+           2015-2017 The Khronos Group Inc.
+           2015-2017 Valve Corporation
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ Need to define dispatch table
+ Core struct can then have ptr to dispatch table at the top
+ Along with object ptrs for current and next OBJ
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     staging/include/KHR/khrplatform.h
+Copyright: 2008-2018 The Khronos Group Inc.
+License:   __HEADER___
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and/or associated documentation files (the
+ "Materials"), to deal in the Materials without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Materials, and to
+ permit persons to whom the Materials are furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Materials.
+ .
+ THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
+ .
+ Khronos platform-specific types and definitions.
+ .
+ The master copy of khrplatform.h is maintained in the Khronos EGL
+ Registry repository at https://github.com/KhronosGroup/EGL-Registry
+ The last semantic modification to khrplatform.h was at commit ID:
+ 67a3e0864c2d75ea5287b9f3d2eb74a745936692
+ .
+ Adopters may modify this file to suit their platform. Adopters are
+ encouraged to submit platform specific modifications to the Khronos
+ group so that they can be included in future versions of this file.
+ Please submit changes by filing pull requests or issues on
+ the EGL Registry repository linked above.
+ .
+ See the Implementer's Guidelines for information about where this file
+ should be located on your system and for more details of its use:
+
+Files:     staging/include/GLES3/gl3platform.h
+Copyright: 2017 The Khronos Group Inc.
+License:   __HEADER___
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ Platform-specific types and definitions for OpenGL ES 3.X  gl3.h
+ .
+ Adopters may modify khrplatform.h and this file to suit their platform.
+ Please contribute modifications back to Khronos as pull requests on the
+ public github repository:
+ https://github.com/KhronosGroup/OpenGL-Registry
+
+Files:     staging/include/EGL/eglplatform.h
+Copyright: 2007-2016 The Khronos Group Inc.
+License:   __HEADER___
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and/or associated documentation files (the
+ "Materials"), to deal in the Materials without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Materials, and to
+ permit persons to whom the Materials are furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Materials.
+ .
+ THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
+ .
+ Platform-specific types and definitions for egl.h
+ $Revision: 30994 $ on $Date: 2015-04-30 13:36:48 -0700 (Thu, 30 Apr 2015) $
+ .
+ Adopters may modify khrplatform.h and this file to suit their platform.
+ You are encouraged to submit all modifications to the Khronos group so that
+ they can be included in future versions of this file.  Please submit changes
+ by sending them to the public Khronos Bugzilla (http://khronos.org/bugzilla)
+ by filing a bug against product "EGL" component "Registry".
+
+Files:     staging/include/GLES/glplatform.h
+Copyright: 2017 The Khronos Group Inc.
+License:   __HEADER___
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ Platform-specific types and definitions for OpenGL ES 1.X  gl.h
+ .
+ Adopters may modify khrplatform.h and this file to suit their platform.
+ Please contribute modifications back to Khronos as pull requests on the
+ public github repository:
+ https://github.com/KhronosGroup/OpenGL-Registry
+
+Files:     staging/include/GLES2/gl2platform.h
+Copyright: 2017 The Khronos Group Inc.
+License:   __HEADER___
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ Platform-specific types and definitions for OpenGL ES 2.X  gl2.h
+ .
+ Adopters may modify khrplatform.h and this file to suit their platform.
+ Please contribute modifications back to Khronos as pull requests on the
+ public github repository:
+ https://github.com/KhronosGroup/OpenGL-Registry
+
+Files:     staging/include/GLES3/gl32.h
+Copyright: 2013-2016 The Khronos Group Inc.
+License:   __UNKNOWN__
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and/or associated documentation files (the
+ "Materials"), to deal in the Materials without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Materials, and to
+ permit persons to whom the Materials are furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Materials.
+ .
+ THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
+ .
+ This header is generated from the Khronos OpenGL / OpenGL ES XML
+ API Registry. The current version of the Registry, generator scripts
+ used to make the header, and the header can be found at
+ http://www.opengl.org/registry/
+ .
+ Khronos $Revision$ on $Date$
+
+Files:     staging/include/EGL/egl.h
+Copyright: 2013-2017 The Khronos Group Inc.
+License:   __UNKNOWN__
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and/or associated documentation files (the
+ "Materials"), to deal in the Materials without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Materials, and to
+ permit persons to whom the Materials are furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Materials.
+ .
+ THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
+ .
+ This header is generated from the Khronos EGL XML API Registry.
+ The current version of the Registry, generator scripts
+ used to make the header, and the header can be found at
+ http://www.khronos.org/registry/egl
+ .
+ Khronos $Git commit SHA1: f7b95d002a $ on $Git commit date: 2018-12-28 20:22:59 +0530 $
+
+Files:     staging/include/EGL/eglext.h
+Copyright: 2013-2017 The Khronos Group Inc.
+License:   __UNKNOWN__
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and/or associated documentation files (the
+ "Materials"), to deal in the Materials without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Materials, and to
+ permit persons to whom the Materials are furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Materials.
+ .
+ THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
+ .
+ This header is generated from the Khronos EGL XML API Registry.
+ The current version of the Registry, generator scripts
+ used to make the header, and the header can be found at
+ http://www.khronos.org/registry/egl
+ .
+ Khronos $Git commit SHA1: 5abde7142b $ on $Git commit date: 2022-03-23 13:57:27 +0000 $
+
+Files:     staging/include/spirv/spirv.hpp
+Copyright: 2014-2020 The Khronos Group Inc.
+License:   __UNKNOWN__
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and/or associated documentation files (the "Materials"),
+ to deal in the Materials without restriction, including without limitation
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Materials, and to permit persons to whom the
+ Materials are furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Materials.
+ .
+ MODIFICATIONS TO THIS FILE MAY MEAN IT NO LONGER ACCURATELY REFLECTS KHRONOS
+ STANDARDS. THE UNMODIFIED, NORMATIVE VERSIONS OF KHRONOS SPECIFICATIONS AND
+ HEADER INFORMATION ARE LOCATED AT https://www.khronos.org/registry/
+ .
+ THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ FROM,OUT OF OR IN CONNECTION WITH THE MATERIALS OR THE USE OR OTHER DEALINGS
+ IN THE MATERIALS.
+ .
+ This header is automatically generated by the same tool that creates
+ the Binary Section of the SPIR-V specification.
+ .
+ Enumeration tokens for SPIR-V, in various styles:
+ C, C++, C++11, JSON, Lua, Python, C#, D
+ .
+ - C will have tokens with a "Spv" prefix, e.g.: SpvSourceLanguageGLSL
+ - C++ will have tokens in the "spv" name space, e.g.: spv::SourceLanguageGLSL
+ - C++11 will use enum classes in the spv namespace, e.g.: spv::SourceLanguage::GLSL
+ - Lua will use tables, e.g.: spv.SourceLanguage.GLSL
+ - Python will use dictionaries, e.g.: spv['SourceLanguage']['GLSL']
+ - C# will use enum classes in the Specification class located in the "Spv" namespace,
+ e.g.: Spv.Specification.SourceLanguage.GLSL
+ - D will have tokens under the "spv" module, e.g: spv.SourceLanguage.GLSL
+ .
+ Some tokens act like mask values, which can be OR'd together,
+ while others are mutually exclusive.  The mask-like ones have
+ "Mask" in their name, and a parallel enum that has the shift
+ amount (1 << x) for each corresponding enumerant.
+
+#----------------------------------------------------------------------------
+# huge files   (skipped):
+#         staging/usr/lib/libusc.so
+#         staging/usr/lib/libGLESv2_PVR_MESA.so
+#         target/usr/lib/libusc.so
+#         target/usr/lib/libGLESv2_PVR_MESA.so
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
