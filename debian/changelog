@@ -1,6 +1,5 @@
-img-gpu-powervr (0.0.1) mantic-porting; urgency=medium
+img-gpu-powervr (23.2-6460340) UNRELEASED; urgency=medium
 
-  * Initial for bianbu-23.10
+  * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
- -- 邓博 <dengbo@lnode1>  Sat, 16 Dec 2023 16:53:39 +0800
-
+ -- bianbu <bo.deng@spacemit.com>  Tue, 29 Aug 2023 09:23:48 +0800
