@@ -1,2 +1,3 @@
 target/lib/firmware/* lib/firmware/
 target/usr/* usr/
+target/etc/* etc/
