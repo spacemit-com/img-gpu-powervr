@@ -44,7 +44,7 @@ def copy_usr(source_dir, destination_dir):
 		shutil.copy(os.path.join(source_dir, cure_path, file), os.path.join(destination_dir, file))
 
 	cure_path = "binary_fpga_linux_wayland_release/target_riscv64/usr/local/lib"
-	cur_files = ["libpvr_mesa_wsi.so", "libvulkan.so", "libvulkan.so.1", "libvulkan.so.1.3.280"]
+	cur_files = ["libvulkan.so", "libvulkan.so.1", "libvulkan.so.1.3.280"]
 	for file in cur_files:
 		shutil.copy(os.path.join(source_dir, cure_path, file), os.path.join(destination_dir, file))
 
