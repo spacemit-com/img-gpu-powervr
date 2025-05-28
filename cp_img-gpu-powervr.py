@@ -39,7 +39,7 @@ def copy_usr(source_dir, destination_dir):
 				'libVK_IMG.so',
 				'libVK_IMG.so.1',
 				'libsutu_display.so']
-	# 复制文件
+    # 复制文件
 	for file in cur_files:
 		shutil.copy(os.path.join(source_dir, cure_path, file), os.path.join(destination_dir, file))
 
@@ -48,13 +48,13 @@ def copy_usr(source_dir, destination_dir):
 	for file in cur_files:
 		shutil.copy(os.path.join(source_dir, cure_path, file), os.path.join(destination_dir, file))
 
-    print(f"Copied {cur_files} to {destination_dir}")
+	print(f"Copied {cur_files} to {destination_dir}")
 
-    destination_dir = "./target/usr/local/lib/"
-    file = libpvr_mesa_wsi.so
-    shutil.copy(os.path.join(source_dir, cure_path, file), os.path.join(destination_dir, file))
+	destination_dir = "./target/usr/local/lib/"
+	file = "libpvr_mesa_wsi.so"
+	shutil.copy(os.path.join(source_dir, cure_path, file), os.path.join(destination_dir, file))
 
-    print(f"Copied {file} to {destination_dir}")
+	print(f"Copied {file} to {destination_dir}")
 
 
 def copy_txtFiles(source_dir, destination_dir):
@@ -178,13 +178,13 @@ if __name__ == "__main__":
 	source_dir = 'xxx'
 
 	# 调用函数复制文件
-	# copy_firmware(source_dir, "./target/lib/firmware/")
+	copy_firmware(source_dir, "./target/lib/firmware/")
 
-	# copy_usr(source_dir, "./target/usr/lib/")
+	copy_usr(source_dir, "./target/usr/lib/")
 
-	# copy_txtFiles(source_dir, "./target/usr/local/share/pvr/shaders/")
+	copy_txtFiles(source_dir, "./target/usr/local/share/pvr/shaders/")
 
-	# copy_etc(source_dir, "./target/etc/vulkan/icd.d/")
+	copy_etc(source_dir, "./target/etc/vulkan/icd.d/")
 
 	copy_bin(source_dir, "./target/usr/local/bin/")
 
