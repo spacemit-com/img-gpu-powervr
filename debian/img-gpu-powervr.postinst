@@ -4,8 +4,8 @@ set -e
 case "$1" in
 configure)
 	# initialization
-	add_env_key=("COGL_DRIVER" "GDK_GL" "XWAYLAND_NO_GLAMOR" "SDL_VIDEODRIVER" "MESA_LOADER_DRIVER_OVERRIDE" "SAL_DISABLEGL" "SAL_ENABLESKIA")
-	add_env_value=("gles2" "gles" "1" "wayland" "pvr" "1" "1")
+	add_env_key=("COGL_DRIVER" "GDK_GL" "XWAYLAND_NO_GLAMOR" "SDL_VIDEODRIVER" "MESA_LOADER_DRIVER_OVERRIDE" "SAL_DISABLEGL" "SAL_ENABLESKIA" "SAL_USE_VCLPLUGIN")
+	add_env_value=("gles2" "gles" "1" "wayland" "pvr" "1" "1" "qt5")
 	add_num=${#add_env_key[@]}
 
 	remove_env_key=()
