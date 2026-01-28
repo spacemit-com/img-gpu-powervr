@@ -1,0 +1,18 @@
+Source: img-gpu-powervr
+Section: graphics
+Priority: optional
+Maintainer: bianbu <bo.deng@spacemit.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: https://gitlab.dc.com:8443/bianbu/graphics/spacemit/img-gpu-powervr/-/tree/bianbu-23.10?ref_type=heads
+#Vcs-Browser: https://salsa.debian.org/debian/img-gpu-powervr
+#Vcs-Git: https://salsa.debian.org/debian/img-gpu-powervr.git
+
+Package: img-gpu-powervr
+Architecture: all
+Depends:
+ ${misc:Depends},
+Description: Imagination PowerVR GPU library packages.
+ img-gpu-powervr is a GPU library packages from Imagination and provide GPU firmware, gles2, gles3. This library is not open source, only provide with binary library.
