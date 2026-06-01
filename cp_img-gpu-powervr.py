@@ -53,12 +53,6 @@ def copy_usr(source_dir, destination_dir):
 
 	print(f"Copied {cur_files} to {destination_dir}")
 
-	destination_dir = "./target/usr/local/lib/"
-	file = "libpvr_mesa_wsi.so"
-	shutil.copy(os.path.join(source_dir, cure_path, file), os.path.join(destination_dir, file))
-
-	print(f"Copied {file} to {destination_dir}")
-
 
 def copy_txtFiles(source_dir, destination_dir):
 	# 确保目标目录存在
