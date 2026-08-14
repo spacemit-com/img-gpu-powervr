@@ -6,9 +6,7 @@ Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 13),
 Standards-Version: 4.6.2
-Homepage: https://gitlab.dc.com:8443/bianbu/graphics/spacemit/img-gpu-powervr/-/tree/bianbu-23.10?ref_type=heads
-#Vcs-Browser: https://salsa.debian.org/debian/img-gpu-powervr
-#Vcs-Git: https://salsa.debian.org/debian/img-gpu-powervr.git
+Homepage: https://github.com/spacemit-com/img-gpu-powervr
 
 Package: img-gpu-powervr
 Architecture: all
